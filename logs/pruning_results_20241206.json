@@ -1,0 +1,362 @@
+[
+    {
+        "timestamp": "2024-12-06 07:56:08",
+        "group_idx": 1,
+        "sparsity": 0.3,
+        "original_model": {
+            "parameters": 9231114,
+            "accuracy": 90.22999799251556,
+            "inference_time": 896.3405643541788
+        },
+        "default_pruning": {
+            "parameters": 7811388,
+            "accuracy": 88.73615506329115,
+            "inference_time": 848.1908117731413,
+            "parameter_reduction_percentage": 15.379790564822404,
+            "speed_improvement": 5.3718145195994635
+        },
+        "intra_fusion": {
+            "parameters": 7811388,
+            "accuracy": 89.26028481012658,
+            "inference_time": 871.4242357956736,
+            "parameter_reduction_percentage": 15.379790564822404,
+            "speed_improvement": 2.7797836614097333
+        }
+    },
+    {
+        "timestamp": "2024-12-06 08:01:32",
+        "group_idx": 1,
+        "sparsity": 0.5,
+        "original_model": {
+            "parameters": 9231114,
+            "accuracy": 90.22999799251556,
+            "inference_time": 896.3405643541788
+        },
+        "default_pruning": {
+            "parameters": 6871050,
+            "accuracy": 85.44303797468355,
+            "inference_time": 825.1108066322878,
+            "parameter_reduction_percentage": 25.566405094769706,
+            "speed_improvement": 7.946729240488261
+        },
+        "intra_fusion": {
+            "parameters": 6871050,
+            "accuracy": 88.02412974683544,
+            "inference_time": 803.0442992846171,
+            "parameter_reduction_percentage": 25.566405094769706,
+            "speed_improvement": 10.408573345866872
+        }
+    },
+    {
+        "timestamp": "2024-12-06 08:06:42",
+        "group_idx": 1,
+        "sparsity": 0.7,
+        "original_model": {
+            "parameters": 9231114,
+            "accuracy": 90.22999799251556,
+            "inference_time": 896.3405643541788
+        },
+        "default_pruning": {
+            "parameters": 5921493,
+            "accuracy": 60.6309335443038,
+            "inference_time": 752.0875007875504,
+            "parameter_reduction_percentage": 35.85288839461847,
+            "speed_improvement": 16.093555206950157
+        },
+        "intra_fusion": {
+            "parameters": 5921493,
+            "accuracy": 86.90664556962025,
+            "inference_time": 772.6120178898176,
+            "parameter_reduction_percentage": 35.85288839461847,
+            "speed_improvement": 13.803742838918453
+        }
+    },
+    {
+        "timestamp": "2024-12-06 08:12:13",
+        "group_idx": 2,
+        "sparsity": 0.3,
+        "original_model": {
+            "parameters": 9231114,
+            "accuracy": 90.22999799251556,
+            "inference_time": 896.3405643541788
+        },
+        "default_pruning": {
+            "parameters": 7811388,
+            "accuracy": 80.40941455696202,
+            "inference_time": 839.6956217916388,
+            "parameter_reduction_percentage": 15.379790564822404,
+            "speed_improvement": 6.319578162051961
+        },
+        "intra_fusion": {
+            "parameters": 7811388,
+            "accuracy": 88.40981012658227,
+            "inference_time": 802.4657650997764,
+            "parameter_reduction_percentage": 15.379790564822404,
+            "speed_improvement": 10.473117360480058
+        }
+    },
+    {
+        "timestamp": "2024-12-06 08:17:06",
+        "group_idx": 2,
+        "sparsity": 0.5,
+        "original_model": {
+            "parameters": 9231114,
+            "accuracy": 90.22999799251556,
+            "inference_time": 896.3405643541788
+        },
+        "default_pruning": {
+            "parameters": 6871050,
+            "accuracy": 68.41376582278481,
+            "inference_time": 721.0364391929224,
+            "parameter_reduction_percentage": 25.566405094769706,
+            "speed_improvement": 19.55775875072267
+        },
+        "intra_fusion": {
+            "parameters": 6871050,
+            "accuracy": 85.62104430379746,
+            "inference_time": 721.6515789429346,
+            "parameter_reduction_percentage": 25.566405094769706,
+            "speed_improvement": 19.489130845830804
+        }
+    },
+    {
+        "timestamp": "2024-12-06 08:21:45",
+        "group_idx": 2,
+        "sparsity": 0.7,
+        "original_model": {
+            "parameters": 9231114,
+            "accuracy": 90.22999799251556,
+            "inference_time": 896.3405643541788
+        },
+        "default_pruning": {
+            "parameters": 5921493,
+            "accuracy": 37.88568037974683,
+            "inference_time": 680.8998233393619,
+            "parameter_reduction_percentage": 35.85288839461847,
+            "speed_improvement": 24.035589772738206
+        },
+        "intra_fusion": {
+            "parameters": 5921493,
+            "accuracy": 80.80498417721519,
+            "inference_time": 699.9971497919142,
+            "parameter_reduction_percentage": 35.85288839461847,
+            "speed_improvement": 21.905001555266185
+        }
+    },
+    {
+        "timestamp": "2024-12-06 08:48:07",
+        "group_idx": 1,
+        "sparsity": 0.3,
+        "original_model": {
+            "parameters": 11178762,
+            "accuracy": 95.14999999999999,
+            "inference_time": 2698.7003450808315
+        },
+        "default_pruning": {
+            "parameters": 9759036,
+            "accuracy": 94.82792721518987,
+            "inference_time": 2717.088432722194,
+            "parameter_reduction_percentage": 12.70020776898193,
+            "speed_improvement": -0.6813682621295818
+        },
+        "intra_fusion": {
+            "parameters": 9759036,
+            "accuracy": 94.92681962025317,
+            "inference_time": 2594.4581826527915,
+            "parameter_reduction_percentage": 12.70020776898193,
+            "speed_improvement": 3.862680145946985
+        }
+    },
+    {
+        "timestamp": "2024-12-06 09:05:23",
+        "group_idx": 1,
+        "sparsity": 0.5,
+        "original_model": {
+            "parameters": 11178762,
+            "accuracy": 95.14999999999999,
+            "inference_time": 2698.7003450808315
+        },
+        "default_pruning": {
+            "parameters": 8818698,
+            "accuracy": 94.82792721518987,
+            "inference_time": 2425.728237235939,
+            "parameter_reduction_percentage": 21.11203369389204,
+            "speed_improvement": 10.114946935196556
+        },
+        "intra_fusion": {
+            "parameters": 8818698,
+            "accuracy": 94.85759493670885,
+            "inference_time": 2659.3052528716707,
+            "parameter_reduction_percentage": 21.11203369389204,
+            "speed_improvement": 1.459780159770974
+        }
+    },
+    {
+        "timestamp": "2024-12-06 09:22:12",
+        "group_idx": 1,
+        "sparsity": 0.7,
+        "original_model": {
+            "parameters": 11178762,
+            "accuracy": 95.14999999999999,
+            "inference_time": 2698.7003450808315
+        },
+        "default_pruning": {
+            "parameters": 7869141,
+            "accuracy": 93.30498417721519,
+            "inference_time": 2385.201553722004,
+            "parameter_reduction_percentage": 29.606328500418922,
+            "speed_improvement": 11.616658067660993
+        },
+        "intra_fusion": {
+            "parameters": 7869141,
+            "accuracy": 94.8378164556962,
+            "inference_time": 2563.3086380751233,
+            "parameter_reduction_percentage": 29.606328500418922,
+            "speed_improvement": 5.016922580993443
+        }
+    },
+    {
+        "timestamp": "2024-12-06 09:40:21",
+        "group_idx": 2,
+        "sparsity": 0.3,
+        "original_model": {
+            "parameters": 11178762,
+            "accuracy": 95.14999999999999,
+            "inference_time": 2698.7003450808315
+        },
+        "default_pruning": {
+            "parameters": 10113852,
+            "accuracy": 94.65981012658227,
+            "inference_time": 2777.467155969271,
+            "parameter_reduction_percentage": 9.526189035959442,
+            "speed_improvement": -2.9186942163480656
+        },
+        "intra_fusion": {
+            "parameters": 10113852,
+            "accuracy": 94.73892405063292,
+            "inference_time": 2583.1619697612723,
+            "parameter_reduction_percentage": 9.526189035959442,
+            "speed_improvement": 4.281259886084116
+        }
+    },
+    {
+        "timestamp": "2024-12-06 09:57:56",
+        "group_idx": 2,
+        "sparsity": 0.5,
+        "original_model": {
+            "parameters": 11178762,
+            "accuracy": 95.14999999999999,
+            "inference_time": 2698.7003450808315
+        },
+        "default_pruning": {
+            "parameters": 9408522,
+            "accuracy": 94.17523734177216,
+            "inference_time": 2511.6706438686538,
+            "parameter_reduction_percentage": 15.83574281302348,
+            "speed_improvement": 6.930361925995006
+        },
+        "intra_fusion": {
+            "parameters": 9408522,
+            "accuracy": 94.56091772151899,
+            "inference_time": 2666.983079403005,
+            "parameter_reduction_percentage": 15.83574281302348,
+            "speed_improvement": 1.1752792686168578
+        }
+    },
+    {
+        "timestamp": "2024-12-06 10:14:41",
+        "group_idx": 2,
+        "sparsity": 0.7,
+        "original_model": {
+            "parameters": 11178762,
+            "accuracy": 95.14999999999999,
+            "inference_time": 2698.7003450808315
+        },
+        "default_pruning": {
+            "parameters": 8696277,
+            "accuracy": 93.15664556962025,
+            "inference_time": 2464.6298678024955,
+            "parameter_reduction_percentage": 22.207154960450904,
+            "speed_improvement": 8.673451934187423
+        },
+        "intra_fusion": {
+            "parameters": 8696277,
+            "accuracy": 94.2939082278481,
+            "inference_time": 2474.9579376644556,
+            "parameter_reduction_percentage": 22.207154960450904,
+            "speed_improvement": 8.290746611575893
+        }
+    },
+    {
+        "timestamp": "2024-12-06 10:32:06",
+        "group_idx": 3,
+        "sparsity": 0.3,
+        "original_model": {
+            "parameters": 11178762,
+            "accuracy": 95.14999999999999,
+            "inference_time": 2698.7003450808315
+        },
+        "default_pruning": {
+            "parameters": 10241749,
+            "accuracy": 91.96993670886076,
+            "inference_time": 2519.7250065596204,
+            "parameter_reduction_percentage": 8.382082023036187,
+            "speed_improvement": 6.631908535063773
+        },
+        "intra_fusion": {
+            "parameters": 10241749,
+            "accuracy": 93.79944620253164,
+            "inference_time": 2543.230805345761,
+            "parameter_reduction_percentage": 8.382082023036187,
+            "speed_improvement": 5.760904133667867
+        }
+    },
+    {
+        "timestamp": "2024-12-06 10:49:17",
+        "group_idx": 3,
+        "sparsity": 0.5,
+        "original_model": {
+            "parameters": 11178762,
+            "accuracy": 95.14999999999999,
+            "inference_time": 2698.7003450808315
+        },
+        "default_pruning": {
+            "parameters": 9621130,
+            "accuracy": 82.76305379746836,
+            "inference_time": 2565.7821330395373,
+            "parameter_reduction_percentage": 13.93385063569651,
+            "speed_improvement": 4.925267537893804
+        },
+        "intra_fusion": {
+            "parameters": 9621130,
+            "accuracy": 90.70411392405063,
+            "inference_time": 2425.3006447916446,
+            "parameter_reduction_percentage": 13.93385063569651,
+            "speed_improvement": 10.130791319145072
+        }
+    },
+    {
+        "timestamp": "2024-12-06 11:05:34",
+        "group_idx": 3,
+        "sparsity": 0.7,
+        "original_model": {
+            "parameters": 11178762,
+            "accuracy": 95.14999999999999,
+            "inference_time": 2698.7003450808315
+        },
+        "default_pruning": {
+            "parameters": 8988342,
+            "accuracy": 50.93947784810127,
+            "inference_time": 2326.292375300793,
+            "parameter_reduction_percentage": 19.594477456448224,
+            "speed_improvement": 13.799530224200721
+        },
+        "intra_fusion": {
+            "parameters": 8988342,
+            "accuracy": 76.36471518987342,
+            "inference_time": 2528.5437754962754,
+            "parameter_reduction_percentage": 19.594477456448224,
+            "speed_improvement": 6.30513016736801
+        }
+    }
+]
